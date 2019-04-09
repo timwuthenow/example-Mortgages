@@ -1,35 +1,36 @@
 <scenario>
+  <name>Are they old enough.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
     <fact-data>
       <type>Applicant</type>
-      <name>a</name>
       <fieldData>
         <field-data>
           <name>age</name>
-          <value>17</value>
-          <nature>0</nature>
+          <value>16</value>
+          <nature>4</nature>
         </field-data>
       </fieldData>
+      <name>a</name>
       <isModify>false</isModify>
     </fact-data>
     <fact-data>
       <type>LoanApplication</type>
-      <name>application</name>
       <fieldData>
         <field-data>
           <name>amount</name>
           <value>1</value>
-          <nature>0</nature>
+          <nature>4</nature>
         </field-data>
       </fieldData>
+      <name>application</name>
       <isModify>false</isModify>
     </fact-data>
     <fact-data>
       <type>IncomeSource</type>
-      <name>incomeSource</name>
       <fieldData/>
+      <name>incomeSource</name>
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
@@ -52,11 +53,14 @@
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2010-05-26 22:27:39.958 EEST</lastRunResult>
+  <lastRunResult>2010-05-26 19:27:39.958 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>mortgages.mortgages</packageName>
   <imports>
     <imports/>
   </imports>
+  <ksessions>
+    <string>defaultKieSession</string>
+  </ksessions>
 </scenario>
